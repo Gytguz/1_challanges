@@ -1,0 +1,39 @@
+/*----- Image properties -----*/
+.qrQodeImg {
+    width: 300px;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+
+/*------ Card properties -----*/
+/* Card width, height, color, position, additional properties */
+.card-parent {
+    width: 330px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-radius: 20px;
+  }
+
+
+/*------ Text properties -----*/ 
+/*text-box properties*/ 
+.text-box {
+    margin: 35px;
+    margin-top: 15px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+}

@@ -1,0 +1,32 @@
+/* All styles are defined in 'style-guide.md' */
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+/* Styles for both desktop and mobile */
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif; /* first value is desired one, second if the first one fails to load */
+    font-weight: 400; /* normal */
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif; /* first value is desired one, second if the first one fails to load */
+    font-weight: 700; /* bold */
+  }
+
+  /* Styles for mobile */
+  @media screen and (max-width: 767px) {
+    body {
+      width: 375px; /* doesn't work with all devices after checking in browser with iPhone, for now I ignore it, alot more code should be put for this to work properly */
+    }
+  }
+
+/* Styles for desktop */
+@media screen and (min-width: 768px) {
+    body {
+      width: 1440px; /* doesn't work with all devices after checking in browser, for now I ignore it, alot more code should be put for this to work properly */
+    }
+  }
